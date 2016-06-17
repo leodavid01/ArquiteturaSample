@@ -12,6 +12,9 @@ namespace ArquiteturaSample.WsCadastro.Model
         {
             return new Entity.Instrutor
             {
+
+
+
                 InstrutorId = this.InstrutorId,
                 NomeInstrutor = this.NomeInstrutor,
                 DataCadastro = this.DataCadastro
