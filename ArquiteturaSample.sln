@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arquitetura", "Arquitetura", "{280A71B8-4B60-4E0E-B9C9-5378150A1A67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servico", "Servico", "{383F77C3-820B-4FD5-AB7B-F8DD0E6A4843}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Site", "Site", "{46C5FAF8-D17F-4D4B-A539-48B7CF1F893D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquiteturaSample.DataAcces", "ArquiteturaSample.DataAcces\ArquiteturaSample.DataAcces.csproj", "{074DE9C0-23DA-4380-BDD8-EC475BFCC7A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquiteturaSample.WsCadastro", "ArquiteturaSample.WsCadastro\ArquiteturaSample.WsCadastro.csproj", "{AC29A1F5-68BC-44F5-99E6-E00367C7F6E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquiteturaSample.Site", "ArquiteturaSample.Site\ArquiteturaSample.Site.csproj", "{C7692713-2D62-4E8E-9FD2-60C334F8842B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC29A1F5-68BC-44F5-99E6-E00367C7F6E6} = {AC29A1F5-68BC-44F5-99E6-E00367C7F6E6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquiteturaSample.WCF.Contract", "ArquiteturaSample.WCF.Contract\ArquiteturaSample.WCF.Contract.csproj", "{9E5C123D-56CF-4FA5-9CFE-DEB51EF5AA4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquiteturaSample.Entity", "ArquiteturaSample.Entity\ArquiteturaSample.Entity.csproj", "{1299F2A9-41A4-4666-8FFC-E718D62FA6C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{074DE9C0-23DA-4380-BDD8-EC475BFCC7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074DE9C0-23DA-4380-BDD8-EC475BFCC7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074DE9C0-23DA-4380-BDD8-EC475BFCC7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074DE9C0-23DA-4380-BDD8-EC475BFCC7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC29A1F5-68BC-44F5-99E6-E00367C7F6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC29A1F5-68BC-44F5-99E6-E00367C7F6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC29A1F5-68BC-44F5-99E6-E00367C7F6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC29A1F5-68BC-44F5-99E6-E00367C7F6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7692713-2D62-4E8E-9FD2-60C334F8842B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7692713-2D62-4E8E-9FD2-60C334F8842B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7692713-2D62-4E8E-9FD2-60C334F8842B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7692713-2D62-4E8E-9FD2-60C334F8842B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5C123D-56CF-4FA5-9CFE-DEB51EF5AA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5C123D-56CF-4FA5-9CFE-DEB51EF5AA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5C123D-56CF-4FA5-9CFE-DEB51EF5AA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5C123D-56CF-4FA5-9CFE-DEB51EF5AA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1299F2A9-41A4-4666-8FFC-E718D62FA6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1299F2A9-41A4-4666-8FFC-E718D62FA6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1299F2A9-41A4-4666-8FFC-E718D62FA6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1299F2A9-41A4-4666-8FFC-E718D62FA6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{074DE9C0-23DA-4380-BDD8-EC475BFCC7A3} = {280A71B8-4B60-4E0E-B9C9-5378150A1A67}
+		{AC29A1F5-68BC-44F5-99E6-E00367C7F6E6} = {383F77C3-820B-4FD5-AB7B-F8DD0E6A4843}
+		{C7692713-2D62-4E8E-9FD2-60C334F8842B} = {46C5FAF8-D17F-4D4B-A539-48B7CF1F893D}
+		{9E5C123D-56CF-4FA5-9CFE-DEB51EF5AA4C} = {280A71B8-4B60-4E0E-B9C9-5378150A1A67}
+		{1299F2A9-41A4-4666-8FFC-E718D62FA6C9} = {280A71B8-4B60-4E0E-B9C9-5378150A1A67}
+	EndGlobalSection
+EndGlobal

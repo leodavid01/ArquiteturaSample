@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="dfbe5be7-97c9-4a52-9875-8d07d9ef6750" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61594/Instrutor.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Instrutor.wsdl" MetadataType="Wsdl" ID="66677817-8fee-404e-965b-dbe8b4fd49f8" SourceId="1" SourceUrl="http://localhost:61594/Instrutor.svc?wsdl" />
+    <MetadataFile FileName="Instrutor.xsd" MetadataType="Schema" ID="7e803465-0a7c-4a22-99e6-28cb984ff39d" SourceId="1" SourceUrl="http://localhost:61594/Instrutor.svc?xsd=xsd2" />
+    <MetadataFile FileName="Instrutor1.xsd" MetadataType="Schema" ID="85030849-8464-465f-b12c-627483d015b2" SourceId="1" SourceUrl="http://localhost:61594/Instrutor.svc?xsd=xsd0" />
+    <MetadataFile FileName="Instrutor2.xsd" MetadataType="Schema" ID="7a49f75c-f545-4815-88a3-97eef4f4635d" SourceId="1" SourceUrl="http://localhost:61594/Instrutor.svc?xsd=xsd1" />
+    <MetadataFile FileName="Instrutor.disco" MetadataType="Disco" ID="d7311733-6352-4322-96f3-8a348f658ab4" SourceId="1" SourceUrl="http://localhost:61594/Instrutor.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
